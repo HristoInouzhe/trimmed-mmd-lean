@@ -1,0 +1,24 @@
+name = "StatFormal"
+version = "0.1.0"
+keywords = ["math"]
+defaultTargets = ["StatFormal", "Papers"]
+
+[leanOptions]
+pp.unicode.fun = true # pretty-prints `fun a ↦ b`
+relaxedAutoImplicit = false
+weak.linter.mathlibStandardSet = true
+maxSynthPendingDepth = 3
+
+# Optimal-transport layer (Wasserstein, quantile couplings, Kantorovich, Brenier, Gaussian W2).
+# Pinned commit; Mathlib comes transitively at Tau Ceti's manifest pin. Bump deliberately.
+[[require]]
+name = "TauCeti"
+git = "https://github.com/TauCetiProject/TauCeti"
+rev = "eae7f76da7948d09c56f491e3315d690f7227b29"
+
+[[lean_lib]]
+name = "StatFormal"
+
+# Reader face: stable paper aliases (tools/gen_papers_face.py); checked by tools/check_aliases.py.
+[[lean_lib]]
+name = "Papers"

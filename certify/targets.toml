@@ -1,0 +1,1577 @@
+# The certified targets that the Annals of Statistics version cites (entries copied from the development repository's list).
+
+[[target]]
+paper = "trimmed-mmd"
+label = "lem:trimmedmean value"
+module = "StatFormal.Archive.TrimmedMMD.BangBang.Proofs"
+claim = "StatFormal.TrimmedMMD.BangBang.Claims.trimmedmean_value"
+theorem = "StatFormal.TrimmedMMD.BangBang.trimmedmean_value"
+card = "certify/cards/trimmedmmd_bangbang.md"
+
+[[target]]
+paper = "trimmed-mmd"
+label = "lem:trimmedmean maximisers"
+module = "StatFormal.Archive.TrimmedMMD.BangBang.Proofs"
+claim = "StatFormal.TrimmedMMD.BangBang.Claims.trimmedmean_argmax"
+theorem = "StatFormal.TrimmedMMD.BangBang.trimmedmean_argmax"
+card = "certify/cards/trimmedmmd_bangbang.md"
+
+[[target]]
+paper = "trimmed-mmd"
+label = "thm:impossible"
+module = "StatFormal.Archive.TrimmedMMD.Impossible.Proofs"
+claim = "StatFormal.TrimmedMMD.Impossible.Claims.impossible"
+theorem = "StatFormal.TrimmedMMD.Impossible.impossible"
+card = "certify/cards/trimmedmmd_impossible.md"
+
+[[target]]
+paper = "trimmed-mmd"
+label = "cor:lower (cor_lower)"
+module = "StatFormal.Archive.TrimmedMMD.Lower.Proofs"
+claim = "StatFormal.TrimmedMMD.Lower.Claims.cor_lower"
+theorem = "StatFormal.TrimmedMMD.Lower.cor_lower"
+card = "certify/cards/trimmedmmd_concentration.md"
+
+[[target]]
+paper = "trimmed-mmd"
+label = "prop:georep (georep_embed)"
+module = "StatFormal.Archive.Wave8a.Proofs"
+claim = "StatFormal.Wave8a.Claims.georep_embed"
+theorem = "StatFormal.Wave8a.georep_embed"
+card = "certify/cards/wave8a.md"
+
+[[target]]
+paper = "trimmed-mmd"
+label = "prop:georep (georep_dist)"
+module = "StatFormal.Archive.Wave8a.Proofs"
+claim = "StatFormal.Wave8a.Claims.georep_dist"
+theorem = "StatFormal.Wave8a.georep_dist"
+card = "certify/cards/wave8a.md"
+
+[[target]]
+paper = "trimmed-mmd"
+label = "prop:georep (georep_empirical)"
+module = "StatFormal.Archive.Wave8a.Proofs"
+claim = "StatFormal.Wave8a.Claims.georep_empirical"
+theorem = "StatFormal.Wave8a.georep_empirical"
+card = "certify/cards/wave8a.md"
+
+[[target]]
+paper = "trimmed-mmd"
+label = "prop:georep (georep_qp)"
+module = "StatFormal.Archive.Wave8a.Proofs"
+claim = "StatFormal.Wave8a.Claims.georep_qp"
+theorem = "StatFormal.Wave8a.georep_qp"
+card = "certify/cards/wave8a.md"
+
+[[target]]
+paper = "trimmed-mmd"
+label = "prop:georep (georep_ties_weights)"
+module = "StatFormal.Archive.Wave8a.Proofs"
+claim = "StatFormal.Wave8a.Claims.georep_ties_weights"
+theorem = "StatFormal.Wave8a.georep_ties_weights"
+card = "certify/cards/wave8a.md"
+
+[[target]]
+paper = "trimmed-mmd"
+label = "lem:cvar (cvar_rkhs)"
+module = "StatFormal.Archive.Wave8a.Proofs"
+claim = "StatFormal.Wave8a.Claims.cvar_rkhs"
+theorem = "StatFormal.Wave8a.cvar_rkhs"
+card = "certify/cards/wave8a.md"
+
+[[target]]
+paper = "trimmed-mmd"
+label = "lem:cvar (cvar_bounded)"
+module = "StatFormal.Archive.Wave8a.Proofs"
+claim = "StatFormal.Wave8a.Claims.cvar_bounded"
+theorem = "StatFormal.Wave8a.cvar_bounded"
+card = "certify/cards/wave8a.md"
+
+[[target]]
+paper = "trimmed-mmd"
+label = "lem:attainment (attain_convex)"
+module = "StatFormal.Archive.Wave11b.Proofs"
+claim = "StatFormal.Wave11b.Claims.attain_convex"
+theorem = "StatFormal.Wave11b.attain_convex"
+card = "certify/cards/wave11b.md"
+
+[[target]]
+paper = "trimmed-mmd"
+label = "lem:attainment (attain_bounded)"
+module = "StatFormal.Archive.Wave11b.Proofs"
+claim = "StatFormal.Wave11b.Claims.attain_bounded"
+theorem = "StatFormal.Wave11b.attain_bounded"
+card = "certify/cards/wave11b.md"
+
+[[target]]
+paper = "trimmed-mmd"
+label = "lem:attainment (attain_inf)"
+module = "StatFormal.Archive.Wave11b.Proofs"
+claim = "StatFormal.Wave11b.Claims.attain_inf"
+theorem = "StatFormal.Wave11b.attain_inf"
+card = "certify/cards/wave11b.md"
+
+[[target]]
+paper = "trimmed-mmd"
+label = "lem:attainment (attain_zero)"
+module = "StatFormal.Archive.Wave11b.Proofs"
+claim = "StatFormal.Wave11b.Claims.attain_zero"
+theorem = "StatFormal.Wave11b.attain_zero"
+card = "certify/cards/wave11b.md"
+
+[[target]]
+paper = "trimmed-mmd"
+label = "lem:attainment (attain_common)"
+module = "StatFormal.Archive.Wave11b.Proofs"
+claim = "StatFormal.Wave11b.Claims.attain_common"
+theorem = "StatFormal.Wave11b.attain_common"
+card = "certify/cards/wave11b.md"
+
+[[target]]
+paper = "trimmed-mmd"
+label = "lem:separation (separation)"
+module = "StatFormal.Archive.Wave17a.Proofs"
+claim = "StatFormal.Wave17a.Claims.separation"
+theorem = "StatFormal.Wave17a.separation"
+card = "certify/cards/wave17a.md"
+
+[[target]]
+paper = "trimmed-mmd"
+label = "lem:separation (separation_nearest_exists)"
+module = "StatFormal.Archive.Wave17a.Proofs"
+claim = "StatFormal.Wave17a.Claims.separation_nearest_exists"
+theorem = "StatFormal.Wave17a.separation_nearest_exists"
+card = "certify/cards/wave17a.md"
+
+[[target]]
+paper = "trimmed-mmd"
+label = "lem:separation (separation_attained)"
+module = "StatFormal.Archive.Wave17a.Proofs"
+claim = "StatFormal.Wave17a.Claims.separation_attained"
+theorem = "StatFormal.Wave17a.separation_attained"
+card = "certify/cards/wave17a.md"
+
+[[target]]
+paper = "trimmed-mmd"
+label = "lem:tcompact (tcompact)"
+module = "StatFormal.Archive.Wave24a.Proofs"
+claim = "StatFormal.Wave24a.Claims.tcompact"
+theorem = "StatFormal.Wave24a.tcompact"
+card = "certify/cards/wave24a.md"
+
+[[target]]
+paper = "trimmed-mmd"
+label = "lem:separation (boundary_dist_dual)"
+module = "StatFormal.Archive.Wave30v.Proofs"
+claim = "StatFormal.Wave30v.Claims.boundary_dist_dual"
+theorem = "StatFormal.Wave30v.boundary_dist_dual"
+card = "certify/cards/wave30v.md"
+
+[[target]]
+paper = "trimmed-mmd"
+label = "lem:trimmedmean (trimmedmean_min)"
+module = "StatFormal.Archive.Wave30az.Proofs"
+claim = "StatFormal.Wave30az.Claims.trimmedmean_min"
+theorem = "StatFormal.Wave30az.trimmedmean_min"
+card = "certify/cards/wave30az.md"
+
+[[target]]
+paper = "trimmed-mmd"
+label = "lem:trimmedmean (trimmedmean_suff)"
+module = "StatFormal.Archive.Wave30az.Proofs"
+claim = "StatFormal.Wave30az.Claims.trimmedmean_suff"
+theorem = "StatFormal.Wave30az.trimmedmean_suff"
+card = "certify/cards/wave30az.md"
+
+[[target]]
+paper = "trimmed-mmd"
+label = "lem:trimmedmean (trimmedmean_unique)"
+module = "StatFormal.Archive.Wave30az.Proofs"
+claim = "StatFormal.Wave30az.Claims.trimmedmean_unique"
+theorem = "StatFormal.Wave30az.trimmedmean_unique"
+card = "certify/cards/wave30az.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "lem:plugin-det (NOTE Lemma P0: D-hat_alpha <= max{|A-B|,|A|,|B|} + rho_R[(1-S_X)_+ + (1-S_Y)_+], every realization) (plugin_det)"
+module = "StatFormal.Wave30tp.Proofs"
+claim = "StatFormal.Wave30tp.Claims.plugin_det"
+theorem = "StatFormal.Wave30tp.plugin_det"
+card = "certify/cards/wave30tp.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "lem:plugin-det (NOTE remark after Lemma P0, alpha = 0: a = b = 1 a.s., P = Q = R, S_X = S_Y = 1 and D-hat_0 <= |A-B| a.s.) (plugin_det_zero)"
+module = "StatFormal.Wave30tp.Proofs"
+claim = "StatFormal.Wave30tp.Claims.plugin_det_zero"
+theorem = "StatFormal.Wave30tp.plugin_det_zero"
+card = "certify/cards/wave30tp.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "thm:plugin (NOTE Thm P, closed form: P(D-hat_alpha > tau_P(alpha,delta)) <= delta for every alpha in [0,1) and every pair with TV <= alpha) (plugin_level)"
+module = "StatFormal.Wave30tp.Proofs"
+claim = "StatFormal.Wave30tp.Claims.plugin_level"
+theorem = "StatFormal.Wave30tp.plugin_level"
+card = "certify/cards/wave30tp.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "thm:plugin (NOTE Thm P: tau_P(.,delta) nonnegative and nondecreasing on [0,1)) (plugin_monotone)"
+module = "StatFormal.Wave30tp.Proofs"
+claim = "StatFormal.Wave30tp.Claims.plugin_monotone"
+theorem = "StatFormal.Wave30tp.plugin_monotone"
+card = "certify/cards/wave30tp.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "thm:plugin (NOTE Thm P, 'so Lemma 1 applies': one event of probability >= 1 - delta on which no true H_{0,alpha} is rejected, for every pair) (plugin_one_event)"
+module = "StatFormal.Wave30tp.Proofs"
+claim = "StatFormal.Wave30tp.Claims.plugin_one_event"
+theorem = "StatFormal.Wave30tp.plugin_one_event"
+card = "certify/cards/wave30tp.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "thm:plugin (NOTE Thm P with the section-1 constants v = sqrt min(kappa^2, D^2/2), rho-bar = D) (plugin_level_explicit)"
+module = "StatFormal.Wave30tp.Proofs"
+claim = "StatFormal.Wave30tp.Claims.plugin_level_explicit"
+theorem = "StatFormal.Wave30tp.plugin_level_explicit"
+card = "certify/cards/wave30tp.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "thm:twosided (NOTE Thm A: events E+, E- of probability >= 1 - delta, not depending on alpha; (a) D-hat_alpha <= D_alpha + tau_A(alpha,delta) and <= tau_A under H_{0,alpha}, (b) D-hat_alpha >= D_alpha - tau_A(alpha,delta)) (thmA)"
+module = "StatFormal.Wave30tr.Proofs"
+claim = "StatFormal.Wave30tr.Claims.thmA"
+theorem = "StatFormal.Wave30tr.thmA"
+card = "certify/cards/wave30tr.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "thm:twosided (NOTE Thm A, 'Hence': |D-hat_alpha - D_alpha| <= tau_A(alpha,delta/2) for all alpha on E+ cap E-, probability >= 1 - delta) (thmA_twosided)"
+module = "StatFormal.Wave30tr.Proofs"
+claim = "StatFormal.Wave30tr.Claims.thmA_twosided"
+theorem = "StatFormal.Wave30tr.thmA_twosided"
+card = "certify/cards/wave30tr.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "thm:twosided (NOTE Thm A, 'Moreover': tau_A(alpha,delta) <= tau_{n,m}(alpha,delta) for every kernel, D in [0,2 kappa]) (thmA_compare)"
+module = "StatFormal.Wave30tr.Proofs"
+claim = "StatFormal.Wave30tr.Claims.thmA_compare"
+theorem = "StatFormal.Wave30tr.thmA_compare"
+card = "certify/cards/wave30tr.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "thm:twosided (NOTE Thm A, declared strengthening: tau_A(alpha,delta/2) <= tau_{n,m}(alpha,delta)) (thmA_compare_half)"
+module = "StatFormal.Wave30tr.Proofs"
+claim = "StatFormal.Wave30tr.Claims.thmA_compare_half"
+theorem = "StatFormal.Wave30tr.thmA_compare_half"
+card = "certify/cards/wave30tr.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "thm:twosided (NOTE Thm A proof, Step 3: tau_A(alpha,delta) = beta tau_A(0,delta); declared additions: nonnegative, nondecreasing on [0,1)) (tauA_scale)"
+module = "StatFormal.Wave30tr.Proofs"
+claim = "StatFormal.Wave30tr.Claims.tauA_scale"
+theorem = "StatFormal.Wave30tr.tauA_scale"
+card = "certify/cards/wave30tr.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "thm:twosided (NOTE Thm A constants: e_k = binom(k-1, floor((k-1)/2)) 2^{1-k} exactly) (ek_closed)"
+module = "StatFormal.Wave30tr.Proofs"
+claim = "StatFormal.Wave30tr.Claims.ek_closed"
+theorem = "StatFormal.Wave30tr.ek_closed"
+card = "certify/cards/wave30tr.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "lem:oneevent (v2) (valid nondecreasing tau: {D-hat_{alpha*} <= tau(alpha*)} measurable, prob >= 1 - delta, D-hat_alpha <= tau(alpha) for all alpha >= alpha*) (oneevent)"
+module = "StatFormal.Wave30tu.Proofs"
+claim = "StatFormal.Wave30tu.Claims.oneevent"
+theorem = "StatFormal.Wave30tu.oneevent"
+card = "certify/cards/wave30tu.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "thm:plugin (v2), paragraph after: tau_{n,m} as the minimum of valid nondecreasing thresholds is valid and nondecreasing (and continuous, -> infinity) (threshold_min)"
+module = "StatFormal.Wave30tu.Proofs"
+claim = "StatFormal.Wave30tu.Claims.threshold_min"
+theorem = "StatFormal.Wave30tu.threshold_min"
+card = "certify/cards/wave30tu.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "thm:plugin (v2), paragraph after: tau^A is valid by thm:twosided because D = 0 under the null (E+ for every pair) (upper_valid)"
+module = "StatFormal.Wave30tu.Proofs"
+claim = "StatFormal.Wave30tu.Claims.upper_valid"
+theorem = "StatFormal.Wave30tu.upper_valid"
+card = "certify/cards/wave30tu.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "eq:pathwise (v2) (r_n + r_m with the cor:uniform events is a lower two-sided tool, every pair) (hausdorff_lower)"
+module = "StatFormal.Wave30tu.Proofs"
+claim = "StatFormal.Wave30tu.Claims.hausdorff_lower"
+theorem = "StatFormal.Wave30tu.hausdorff_lower"
+card = "certify/cards/wave30tu.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "cor:lower (cor_lower_fs)"
+module = "StatFormal.Wave30tn.Proofs"
+claim = "StatFormal.Wave30tn.Claims.cor_lower_fs"
+theorem = "StatFormal.Wave30tn.cor_lower_fs"
+card = "certify/cards/wave30tn.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "cor:lower (cor_lower_boot_any)"
+module = "StatFormal.Wave30tn.Proofs"
+claim = "StatFormal.Wave30tn.Claims.cor_lower_boot_any"
+theorem = "StatFormal.Wave30tn.cor_lower_boot_any"
+card = "certify/cards/wave30tn.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "cor:lower (cor_lower_split_any)"
+module = "StatFormal.Wave30tn.Proofs"
+claim = "StatFormal.Wave30tn.Claims.cor_lower_split_any"
+theorem = "StatFormal.Wave30tn.cor_lower_split_any"
+card = "certify/cards/wave30tn.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "lem:popthreshold (popthreshold)"
+module = "StatFormal.Wave30tn.Proofs"
+claim = "StatFormal.Wave30tn.Claims.popthreshold"
+theorem = "StatFormal.Wave30tn.popthreshold"
+card = "certify/cards/wave30tn.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "lem:sepmargin (v2): sep_K(f) <= <f,d*>, sep_K(f*) = D = max over the unit ball, quadratic margin (D/2)||u - f*||^2 on the unit sphere, and ||d' - d*||^2 = (D' - D)^2 + D'D||f' - f*||^2 (sepmargin)"
+module = "StatFormal.Wave30tx.Proofs"
+claim = "StatFormal.Wave30tx.Claims.sepmargin"
+theorem = "StatFormal.Wave30tx.sepmargin"
+card = "certify/cards/wave30tx.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "lem:basicineq (v2): (D/2)||f-hat - f*||^2 <= xi(f-hat) - xi(f*) <= beta-bar[(P - P_n){(t-hat - f-hat)_+ - (t* - f*)_+} + (Q - Q_m){(f-hat - u-hat)_+ - (f* - u*)_+}] for every realization (basicineq)"
+module = "StatFormal.Wave30tx.Proofs"
+claim = "StatFormal.Wave30tx.Claims.basicineq"
+theorem = "StatFormal.Wave30tx.basicineq"
+card = "certify/cards/wave30tx.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "lem:localmod (v2): Z(r) measurable, nonnegative, nondecreasing in r (an upper bound of the bracket over H(r), integrable), E Z(r) <= 2[kappa r sqrt(s) + (kappa r + lambda_1)e_n + (kappa r + lambda_2)e_m], and Z(r) <= kappa r L(chi) + M(chi) with probability >= 1 - e^{-chi} (localmod)"
+module = "StatFormal.Wave30tx.Proofs"
+claim = "StatFormal.Wave30tx.Claims.localmod"
+theorem = "StatFormal.Wave30tx.localmod"
+card = "certify/cards/wave30tx.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "cor:trimrate (v2): the four O_P rates (direction V_alpha/(D sqrt(n^m)), witness V_alpha/sqrt(n^m), P(A-hat_n sym A*) and (1 - alpha) int|g-hat_n - g*| dP at C_f(kappa V_alpha + 1/c_f)/sqrt(n^m)) in explicit form, with one factor Lambda depending only on the probability allowed (cor_trimrate)"
+module = "StatFormal.Wave30tx.Proofs"
+claim = "StatFormal.Wave30tx.Claims.cor_trimrate"
+theorem = "StatFormal.Wave30tx.cor_trimrate"
+card = "certify/cards/wave30tx.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "lem:contact (v2), first sentence: C_{alpha,k}(P) is norm-compact for every alpha in [0,1) (contact_compact)"
+module = "StatFormal.Wave30tx.Proofs"
+claim = "StatFormal.Wave30tx.Claims.contact_compact"
+theorem = "StatFormal.Wave30tx.contact_compact"
+card = "certify/cards/wave30tx.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "lem:contact (v2) with its lead-in: P inf Q is the largest measure below P and Q, of mass 1 - TV(P,Q); R* = (P inf Q)/(1 - alpha*) is the only common element of R_{alpha*}(P) and R_{alpha*}(Q); C_{alpha*,k}(P) cap C_{alpha*,k}(Q) = {mu_R*}; omega_c(eps) -> 0 as eps -> 0+ (contact)"
+module = "StatFormal.Wave30tx.Proofs"
+claim = "StatFormal.Wave30tx.Claims.contact"
+theorem = "StatFormal.Wave30tx.contact"
+card = "certify/cards/wave30tx.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "prop:alphahat (v2): omega_c -> 0; on the cor:uniform events E (probability >= 1 - 2 delta'), for every level alpha-tilde <= alpha* and every (w,v) in T_{alpha-tilde}, MMD(sum w_i delta_{X_i}, R*) <= r_n + omega_c(D-hat + r_n + r_m) (and the second sample); E cap {alpha-hat <= alpha*} has probability >= 1 - delta - 2 delta' and on it D-hat_{alpha-hat} <= tau(alpha*) and the bounds hold at alpha-hat (alphahat)"
+module = "StatFormal.Wave30tx.Proofs"
+claim = "StatFormal.Wave30tx.Claims.alphahat"
+theorem = "StatFormal.Wave30tx.alphahat"
+card = "certify/cards/wave30tx.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "prop:alphahat (v2), schedule sentence: along delta_{n,m} -> 0 with log(1/delta)/min(n,m) -> 0, MMD(sum w_i delta_{X_i}, R*) -> 0 and MMD(sum v_j delta_{Y_j}, R*) -> 0 in probability at alpha-hat (alphahat_schedule)"
+module = "StatFormal.Wave30tx.Proofs"
+claim = "StatFormal.Wave30tx.Claims.alphahat_schedule"
+theorem = "StatFormal.Wave30tx.alphahat_schedule"
+card = "certify/cards/wave30tx.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "lem:hinge (v2): two-sample hinge class, Z and Z^- measurable (and integrable), E Z, E Z^- <= 2[r kappa sqrt(s) + rho_1 e_n + rho_2 e_m] (hinge)"
+module = "StatFormal.Wave30ty.Proofs"
+claim = "StatFormal.Wave30ty.Claims.hinge"
+theorem = "StatFormal.Wave30ty.hinge"
+card = "certify/cards/wave30ty.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "lem:hinge (v2): tail as printed, P(Z >= EZ + sqrt(chi(Delta_1^2/n + Delta_2^2/m)/2)) <= e^{-chi} and the same for Z^-, under the added Delta_1^2/n + Delta_2^2/m > 0 (hinge_tail)"
+module = "StatFormal.Wave30ty.Proofs"
+claim = "StatFormal.Wave30ty.Claims.hinge_tail"
+theorem = "StatFormal.Wave30ty.hinge_tail"
+card = "certify/cards/wave30ty.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "lem:hinge (v2): corrected tail, P(Z > EZ + sqrt(chi(Delta_1^2/n + Delta_2^2/m)/2)) <= e^{-chi} and the same for Z^-, no extra hypothesis (hinge_tail_strict)"
+module = "StatFormal.Wave30ty.Proofs"
+claim = "StatFormal.Wave30ty.Claims.hinge_tail_strict"
+theorem = "StatFormal.Wave30ty.hinge_tail_strict"
+card = "certify/cards/wave30ty.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "lem:hinge (v2), one sample: Z and Z^- measurable (and integrable), E Z, E Z^- <= 2[r kappa sqrt(1/n) + rho_1 e_n] (hinge1)"
+module = "StatFormal.Wave30ty.Proofs"
+claim = "StatFormal.Wave30ty.Claims.hinge1"
+theorem = "StatFormal.Wave30ty.hinge1"
+card = "certify/cards/wave30ty.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "lem:hinge (v2), one sample: tail as printed, P(Z >= EZ + sqrt(chi Delta_1^2/n/2)) <= e^{-chi} and the same for Z^-, under the added Delta_1^2/n > 0 (hinge1_tail)"
+module = "StatFormal.Wave30ty.Proofs"
+claim = "StatFormal.Wave30ty.Claims.hinge1_tail"
+theorem = "StatFormal.Wave30ty.hinge1_tail"
+card = "certify/cards/wave30ty.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "lem:hinge (v2), one sample: corrected tail with > and no extra hypothesis (hinge1_tail_strict)"
+module = "StatFormal.Wave30ty.Proofs"
+claim = "StatFormal.Wave30ty.Claims.hinge1_tail_strict"
+theorem = "StatFormal.Wave30ty.hinge1_tail_strict"
+card = "certify/cards/wave30ty.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "lem:ramp (theory.md Lemma 2) (1), g in [0,1] (lem2_1)"
+module = "StatFormal.Wave30tq.Proofs"
+claim = "StatFormal.Wave30tq.Claims.lem2_1"
+theorem = "StatFormal.Wave30tq.lem2_1"
+card = "certify/cards/wave30tq.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "lem:ramp (theory.md Lemma 2) (2) (lem2_2)"
+module = "StatFormal.Wave30tq.Proofs"
+claim = "StatFormal.Wave30tq.Claims.lem2_2"
+theorem = "StatFormal.Wave30tq.lem2_2"
+card = "certify/cards/wave30tq.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "lem:ramp (theory.md Lemma 2) (3), variance comparisons (lem2_3)"
+module = "StatFormal.Wave30tq.Proofs"
+claim = "StatFormal.Wave30tq.Claims.lem2_3"
+theorem = "StatFormal.Wave30tq.lem2_3"
+card = "certify/cards/wave30tq.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "lem:ramp (theory.md Lemma 2) (4) (lem2_4)"
+module = "StatFormal.Wave30tq.Proofs"
+claim = "StatFormal.Wave30tq.Claims.lem2_4"
+theorem = "StatFormal.Wave30tq.lem2_4"
+card = "certify/cards/wave30tq.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "thm:betting (theory.md Thm 1), fold one fixed (thm1_cond)"
+module = "StatFormal.Wave30tq.Proofs"
+claim = "StatFormal.Wave30tq.Claims.thm1_cond"
+theorem = "StatFormal.Wave30tq.thm1_cond"
+card = "certify/cards/wave30tq.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "thm:betting (theory.md Thm 1), P(max_t K_t >= 1/delta | D_1) <= delta a.s. (thm1_condexp)"
+module = "StatFormal.Wave30tq.Proofs"
+claim = "StatFormal.Wave30tq.Claims.thm1_condexp"
+theorem = "StatFormal.Wave30tq.thm1_condexp"
+card = "certify/cards/wave30tq.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "thm:betting (theory.md Thm 1), sup_{H_0,alpha} P(reject) <= delta (thm1)"
+module = "StatFormal.Wave30tq.Proofs"
+claim = "StatFormal.Wave30tq.Claims.thm1"
+theorem = "StatFormal.Wave30tq.thm1"
+card = "certify/cards/wave30tq.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "lem:ramp (iii) (v2 seq), E_P g - E_Q g <= TV(P,Q) for the ramp g (measurable, [0,1]-valued) (lem_ramp_iii)"
+module = "StatFormal.Wave30tv.Proofs"
+claim = "StatFormal.Wave30tv.Claims.lem_ramp_iii"
+theorem = "StatFormal.Wave30tv.lem_ramp_iii"
+card = "certify/cards/wave30tv.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "thm:betting (v2 seq), P(max_{t<=N} K_t >= 1/delta | batch 0) <= delta for every value of batch 0 (thm_betting_cond)"
+module = "StatFormal.Wave30tv.Proofs"
+claim = "StatFormal.Wave30tv.Claims.thm_betting_cond"
+theorem = "StatFormal.Wave30tv.thm_betting_cond"
+card = "certify/cards/wave30tv.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "thm:betting (v2 seq), P(max_{t<=N} K_t >= 1/delta | batch 0) <= delta a.s. (condExp given sigma(u, batch 0)) (thm_betting_condexp)"
+module = "StatFormal.Wave30tv.Proofs"
+claim = "StatFormal.Wave30tv.Claims.thm_betting_condexp"
+theorem = "StatFormal.Wave30tv.thm_betting_condexp"
+card = "certify/cards/wave30tv.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "thm:betting (v2 seq), Hence: level <= delta for every sample size, uniformly over H_{0,alpha} (thm_betting)"
+module = "StatFormal.Wave30tv.Proofs"
+claim = "StatFormal.Wave30tv.Claims.thm_betting"
+theorem = "StatFormal.Wave30tv.thm_betting"
+card = "certify/cards/wave30tv.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "cor:lower (v2 seq), finite-sample clause: P(alpha_lo > TV) <= delta, every level tested by thm:betting on the same batches (cor_lower)"
+module = "StatFormal.Wave30tv.Proofs"
+claim = "StatFormal.Wave30tv.Claims.cor_lower"
+theorem = "StatFormal.Wave30tv.cor_lower"
+card = "certify/cards/wave30tv.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "prop:bangbang (v2 short): one level alpha in [0,1): T_alpha nonempty convex compact; witness = min-norm element of C(P_n) - C(Q_m), norm = D-hat, unique; (ii) cap/zero/tie rule, every weight at the cap when n_alpha = n; (iii) D-hat = 0 (bangbang_v2)"
+module = "StatFormal.Wave31ta.Proofs"
+claim = "StatFormal.Wave31ta.Claims.bangbang_v2"
+theorem = "StatFormal.Wave31ta.bangbang_v2"
+card = "certify/cards/wave31ta.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "lem:continuity (v2 short): |D_alpha - D_alpha'| <= 4 kappa (1 - alpha-bar)^{-2} |alpha - alpha'| for alpha, alpha' in [0, alpha-bar], every alpha-bar in [0,1) (continuity_v2)"
+module = "StatFormal.Wave31ta.Proofs"
+claim = "StatFormal.Wave31ta.Claims.continuity_v2"
+theorem = "StatFormal.Wave31ta.continuity_v2"
+card = "certify/cards/wave31ta.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "cor:uniform (v2 short): the named event {sup_G |(P_n - P)g| <= 4 kappa/sqrt n + kappa sqrt(2 log(2/delta)/n)} is measurable, has probability >= 1 - delta, and on it d_H(C_alpha(P_n), C_alpha(P)) <= r_n(alpha,delta) for every alpha (uniform_event)"
+module = "StatFormal.Wave31ta.Proofs"
+claim = "StatFormal.Wave31ta.Claims.uniform_event"
+theorem = "StatFormal.Wave31ta.uniform_event"
+card = "certify/cards/wave31ta.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "cor:lower (v2 short): the event 'H_{0,alpha-hat_lo} rejected and TV <= alpha-hat_lo' is measurable with probability <= delta, and P(alpha-hat_lo > TV) <= delta, betting test on the same batches, any rule at each level (cor_lower_v2)"
+module = "StatFormal.Wave31ta.Proofs"
+claim = "StatFormal.Wave31ta.Claims.cor_lower_v2"
+theorem = "StatFormal.Wave31ta.cor_lower_v2"
+card = "certify/cards/wave31ta.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "thm:impossible (v2 short): coverage >= 1 - delta over P_2 (densities on [0,1] bounded by 2) forces P_{u,u}(U-hat >= 1) >= 1 - delta, every n, m >= 1, randomised U-hat (impossible_two)"
+module = "StatFormal.Wave31ta.Proofs"
+claim = "StatFormal.Wave31ta.Claims.impossible_two"
+theorem = "StatFormal.Wave31ta.impossible_two"
+card = "certify/cards/wave31ta.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "cor:trimrate (v2 short): the four O_P rates with Lambda depending only on the probability allowed and N depending on (P,Q,k,alpha) and r_Q only (chosen before t_alpha, u_alpha, c_f, C_f, c'_f), t_alpha any (1-alpha)-quantile with (Q) (cor_trimrate_v2)"
+module = "StatFormal.Wave31ta.Proofs"
+claim = "StatFormal.Wave31ta.Claims.cor_trimrate_v2"
+theorem = "StatFormal.Wave31ta.cor_trimrate_v2"
+card = "certify/cards/wave31ta.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "rem:qdens (v3): 'L is compact', every dimension: a continuous h on R^d with h(x) -> 0 as |x| -> infinity has compact level sets {h = t}, t != 0 (level_compact)"
+module = "StatFormal.Wave31tc.Proofs"
+claim = "StatFormal.Wave31tc.Claims.level_compact"
+theorem = "StatFormal.Wave31tc.level_compact"
+card = "certify/cards/wave31tc.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "rem:qdens (v3), univariate core (d = 1): h C^1, h -> 0 at +-infinity, t != 0, L = {h = t} nonempty, h' != 0 on L, X with density p continuous near L and positive on L; then (Q): the law of h(X) has on [t-r, t+r] a density in [c, C], 0 < c <= C (qdens_univariate)"
+module = "StatFormal.Wave31tc.Proofs"
+claim = "StatFormal.Wave31tc.Claims.qdens_univariate"
+theorem = "StatFormal.Wave31tc.qdens_univariate"
+card = "certify/cards/wave31tc.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "rem:qdens (v3), univariate core with the explicit density: L finite; on [t-r, t+r] the law of h(X) has the continuous density s -> sum over h(x) = s of p(x)/|h'(x)|, with values in [c, C], c > 0 (qdens_formula)"
+module = "StatFormal.Wave31tc.Proofs"
+claim = "StatFormal.Wave31tc.Claims.qdens_formula"
+theorem = "StatFormal.Wave31tc.qdens_formula"
+card = "certify/cards/wave31tc.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "rem:qdens (v3), conclusion and last sentence, X = R, witness d*(x) = <d*, phi(x)>: the level-set conditions at t_alpha under P and at u_alpha under Q give (Q) and (Q') with one common r_Q (qdens_Q_Qprime)"
+module = "StatFormal.Wave31tc.Proofs"
+claim = "StatFormal.Wave31tc.Claims.qdens_Q_Qprime"
+theorem = "StatFormal.Wave31tc.qdens_Q_Qprime"
+card = "certify/cards/wave31tc.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "ex:separated (v3): R, P_0, Q_0 on pairwise disjoint sets, P, Q the alpha*-mixtures: TV(P,Q) = alpha*; for f = 0, 1, -1 on S_R, S_P, S_Q: D_alpha >= 2(alpha* - alpha)/((1 - alpha)||f||) >= 2(alpha* - alpha)/||f|| on [0, alpha*] (inf over trimmings and regions' distance), ass:margin with omega(eps) = (2/||f||) eps, the polynomial case gamma = 1 (separated)"
+module = "StatFormal.Wave31tb.Proofs"
+claim = "StatFormal.Wave31tb.Claims.separated"
+theorem = "StatFormal.Wave31tb.separated"
+card = "certify/cards/wave31tb.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "lem:popramp (v2, NOTE freeze item 6, corrected: cut points in the range of f): theta(f;t,u) >= d > 0, t <= sup f, u >= inf f give u < t, t - u <= D_phi and excess >= d/(beta D_phi) (pop_ramp)"
+module = "StatFormal.Wave30tz.Proofs"
+claim = "StatFormal.Wave30tz.Claims.pop_ramp"
+theorem = "StatFormal.Wave30tz.pop_ramp"
+card = "certify/cards/wave30tz.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "lem:popramp (v2): the NOTE freeze item 6 as worded (no condition on the cut points) is false; counterexample P = delta_1, Q = delta_0, alpha = 0, t = 2, u = 0 (pop_ramp_freeze_false)"
+module = "StatFormal.Wave30tz.Proofs"
+claim = "StatFormal.Wave30tz.Claims.pop_ramp_freeze_false"
+theorem = "StatFormal.Wave30tz.pop_ramp_freeze_false"
+card = "certify/cards/wave30tz.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "lem:popramp (v2), as printed: for nearest points of C_alpha(P), C_alpha(Q), the smallest (1-alpha)- and largest alpha-quantiles t*, u*: D_alpha <= t* - u* <= D_phi and E_P g* - E_Q g* - alpha >= D_alpha/(beta (t*-u*)) >= D_alpha/(beta D_phi) (pop_ramp_rkhs)"
+module = "StatFormal.Wave30tz.Proofs"
+claim = "StatFormal.Wave30tz.Claims.pop_ramp_rkhs"
+theorem = "StatFormal.Wave30tz.pop_ramp_rkhs"
+card = "certify/cards/wave30tz.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "lem:popramp (v2, NOTE Lemma 1, not printed): under (A3), TV(P,Q) is the least upper bound of E_P g - E_Q g over the ramps of the unit ball (ramp_tv)"
+module = "StatFormal.Wave30tz.Proofs"
+claim = "StatFormal.Wave30tz.Claims.ramp_tv"
+theorem = "StatFormal.Wave30tz.ramp_tv"
+card = "certify/cards/wave30tz.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "prop:loconsistency (v2, proof, NOTE freeze item 9): down-closed rule, alpha-hat > alpha_{j*} forces the rejection of the first level >= a; alpha-hat < alpha_i forces a non-rejection at some j <= i (grid_events)"
+module = "StatFormal.Wave30tz.Proofs"
+claim = "StatFormal.Wave30tz.Claims.grid_events"
+theorem = "StatFormal.Wave30tz.grid_events"
+card = "certify/cards/wave30tz.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "prop:loconsistency (v2, proof 'Refining grids'): some point of G cup {0} lies in [a - 2h, a] (mesh_point)"
+module = "StatFormal.Wave30tz.Proofs"
+claim = "StatFormal.Wave30tz.Claims.mesh_point"
+theorem = "StatFormal.Wave30tz.mesh_point"
+card = "certify/cards/wave30tz.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "prop:loconsistency (v2), upper side for every n, m, any admissible rules and every pair: alpha-hat measurable, P(alpha-hat > alpha_{j*}) <= delta, and P(alpha-hat >= alpha*) <= delta when alpha* > 0 is a grid level (lo_upper)"
+module = "StatFormal.Wave30tz.Proofs"
+claim = "StatFormal.Wave30tz.Claims.lo_upper"
+theorem = "StatFormal.Wave30tz.lo_upper"
+card = "certify/cards/wave30tz.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "prop:loconsistency (v2, NOTE §5): the explicit lower-side bound P(alpha-hat < alpha_i) <= 2B exp(-2(tau_* - mu_1)_+^2/(D_phi^2 r)) + J eps_N(rho_*), sigma^2_min <= 4, uniform over D_{alpha_i} >= d (lo_lower_bound)"
+module = "StatFormal.Wave30tz.Proofs"
+claim = "StatFormal.Wave30tz.Claims.lo_lower_bound"
+theorem = "StatFormal.Wave30tz.lo_lower_bound"
+card = "certify/cards/wave30tz.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "prop:loconsistency (v2, NOTE §5): the explicit strict upper bound P(alpha-hat > alpha_{j*}) <= min(delta^{2 zeta/lambda_max}, exp(-zeta sigma_min sqrt(2NL))) when the grid levels >= alpha* exceed it by zeta (lo_strict_bound)"
+module = "StatFormal.Wave30tz.Proofs"
+claim = "StatFormal.Wave30tz.Claims.lo_strict_bound"
+theorem = "StatFormal.Wave30tz.lo_strict_bound"
+card = "certify/cards/wave30tz.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "prop:loconsistency (v2, NOTE Prop 1(1)-(2) lower side, without (A3)): P(alpha-hat < alpha_i) -> 0 uniformly over the pairs with D_{alpha_i} >= d, log(1/delta) = o(min(n,m)), any floor sigma^2_min > 0 (lo_lower)"
+module = "StatFormal.Wave30tz.Proofs"
+claim = "StatFormal.Wave30tz.Claims.lo_lower"
+theorem = "StatFormal.Wave30tz.lo_lower"
+card = "certify/cards/wave30tz.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "thm:impossible (impossible)"
+module = "StatFormal.Wave30tm.Proofs"
+claim = "StatFormal.Wave30tm.Claims.impossible"
+theorem = "StatFormal.Wave30tm.impossible"
+card = "certify/cards/trimmedmmd_jmlr_impossible.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "thm:impossible, encoding of P_2: P <= 2 lambda|[0,1] iff a Lebesgue density f <= 2 vanishing off [0,1] (density2_iff)"
+module = "StatFormal.Wave30tm.Proofs"
+claim = "StatFormal.Wave30tm.Claims.density2_iff"
+theorem = "StatFormal.Wave30tm.density2_iff"
+card = "certify/cards/trimmedmmd_jmlr_impossible.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "thm:impossible, sanity: implies the long version's thm:impossible (impossible_implies_archived)"
+module = "StatFormal.Wave30tm.Proofs"
+claim = "StatFormal.Wave30tm.Claims.impossible_implies_archived"
+theorem = "StatFormal.Wave30tm.impossible_implies_archived"
+card = "certify/cards/trimmedmmd_jmlr_impossible.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "rem:qdens (v3, every d), geometric core with no kernel, every dimension d: f C^1 on R^d, f -> 0 at infinity, t != 0, L = {f = t} nonempty, grad f != 0 on L, p continuous near L and positive on L; then (Q): the law of f(X), X ~ p dx, has on [t-r, t+r] a density in [c, C], 0 < c <= C (qdens_euclid; for d = 1 it is equivalent to the Wave 31tc univariate claim)"
+module = "StatFormal.Wave31th.Proofs"
+claim = "StatFormal.Wave31th.Claims.qdens_euclid"
+theorem = "StatFormal.Wave31th.qdens_euclid"
+card = "certify/cards/wave31th.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "rem:qdens (v3, every d), the Gaussian-RKHS facts of the printed proof (Steinwart-Christmann Cor. 4.36, Thm 4.21, Lemma 4.23) at the C^1 level: for a feature map with Gram function exp(-norm(x-y)^2/(2 sigma^2)) every x -> <f, phi x> is C^1 (not C^infty) and vanishes at infinity (gaussian_regular)"
+module = "StatFormal.Wave31th.Proofs"
+claim = "StatFormal.Wave31th.Claims.gaussian_regular"
+theorem = "StatFormal.Wave31th.gaussian_regular"
+card = "certify/cards/wave31th.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "lem:pathconvex (v3 rev) (pathconvex)"
+module = "StatFormal.Wave31ti.Proofs"
+claim = "StatFormal.Wave31ti.Claims.pathconvex"
+theorem = "StatFormal.Wave31ti.pathconvex"
+card = "certify/cards/wave31ti.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "lem:pathconvex (v3 rev) (pathconvex_emp)"
+module = "StatFormal.Wave31ti.Proofs"
+claim = "StatFormal.Wave31ti.Claims.pathconvex_emp"
+theorem = "StatFormal.Wave31ti.pathconvex_emp"
+card = "certify/cards/wave31ti.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "lem:pathconvex (v3 rev) (pathconvex_i)"
+module = "StatFormal.Wave31ti.Proofs"
+claim = "StatFormal.Wave31ti.Claims.pathconvex_i"
+theorem = "StatFormal.Wave31ti.pathconvex_i"
+card = "certify/cards/wave31ti.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "lem:pathconvex (v3 rev) (pathconvex_ii)"
+module = "StatFormal.Wave31ti.Proofs"
+claim = "StatFormal.Wave31ti.Claims.pathconvex_ii"
+theorem = "StatFormal.Wave31ti.pathconvex_ii"
+card = "certify/cards/wave31ti.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "lem:pathconvex (v3 rev) (pathconvex_tangent)"
+module = "StatFormal.Wave31ti.Proofs"
+claim = "StatFormal.Wave31ti.Claims.pathconvex_tangent"
+theorem = "StatFormal.Wave31ti.pathconvex_tangent"
+card = "certify/cards/wave31ti.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "lem:marginexists (v3 rev) (marginexists)"
+module = "StatFormal.Wave31ti.Proofs"
+claim = "StatFormal.Wave31ti.Claims.marginexists"
+theorem = "StatFormal.Wave31ti.marginexists"
+card = "certify/cards/wave31ti.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "rem:batch0grid (v3 rev) (batch0grid_cond)"
+module = "StatFormal.Wave31tj.Proofs"
+claim = "StatFormal.Wave31tj.Claims.batch0grid_cond"
+theorem = "StatFormal.Wave31tj.batch0grid_cond"
+card = "certify/cards/wave31tj.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "rem:batch0grid (v3 rev) (batch0grid)"
+module = "StatFormal.Wave31tj.Proofs"
+claim = "StatFormal.Wave31tj.Claims.batch0grid"
+theorem = "StatFormal.Wave31tj.batch0grid"
+card = "certify/cards/wave31tj.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "thm:lorate (v3 2026-11-19) (i): P(alpha-lo < a_eps) <= eta when c0 eps^gamma >= beta* max{T_fit, T_bet(J_eps)}"
+module = "StatFormal.Wave31tl.Proofs"
+claim = "StatFormal.Wave31tl.Claims.lorate_i"
+theorem = "StatFormal.Wave31tl.lorate_i"
+card = "certify/cards/wave31tl.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "thm:lorate (v3 2026-11-19) (ii): alpha* - h - (t/c0)^{1/gamma} <= alpha-lo <= alpha* with probability >= 1 - delta - eta"
+module = "StatFormal.Wave31tl.Proofs"
+claim = "StatFormal.Wave31tl.Claims.lorate_ii"
+theorem = "StatFormal.Wave31tl.lorate_ii"
+card = "certify/cards/wave31tl.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "thm:lorate (v3 2026-11-19) (iii), the default batches: r_1 <= min{1, 12/(n^m)}, N >= (n^m)/2"
+module = "StatFormal.Wave31tl.Proofs"
+claim = "StatFormal.Wave31tl.Claims.lorate_batches"
+theorem = "StatFormal.Wave31tl.lorate_batches"
+card = "certify/cards/wave31tl.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "thm:lorate (v3 2026-11-19) (iii), the O(.) with the absolute constant 1000"
+module = "StatFormal.Wave31tl.Proofs"
+claim = "StatFormal.Wave31tl.Claims.lorate_iii"
+theorem = "StatFormal.Wave31tl.lorate_iii"
+card = "certify/cards/wave31tl.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "thm:lorate (v3 2026-11-19), the paragraph after it: no log J when h_0 >= eps' (lorate_nologJ)"
+module = "StatFormal.Wave31tl.Proofs"
+claim = "StatFormal.Wave31tl.Claims.lorate_nologJ"
+theorem = "StatFormal.Wave31tl.lorate_nologJ"
+card = "certify/cards/wave31tl.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "thm:lorate (v3 2026-11-19), the paragraph after the proof: a general margin omega (lorate_general)"
+module = "StatFormal.Wave31tl.Proofs"
+claim = "StatFormal.Wave31tl.Claims.lorate_general"
+theorem = "StatFormal.Wave31tl.lorate_general"
+card = "certify/cards/wave31tl.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "prose:lo-rate (v3 2026-11-19) (lorate_O)"
+module = "StatFormal.Wave31tl.Proofs"
+claim = "StatFormal.Wave31tl.Claims.lorate_O"
+theorem = "StatFormal.Wave31tl.lorate_O"
+card = "certify/cards/wave31tl.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "cor:alphalo (v3 2026-11-19) (alphalo)"
+module = "StatFormal.Wave31tm.Proofs"
+claim = "StatFormal.Wave31tm.Claims.alphalo"
+theorem = "StatFormal.Wave31tm.alphalo"
+card = "certify/cards/wave31tm.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "prop:lower2pt (AoS 2026-11-20) (a): TV(P_a,Q_a) = a, TV(P_{a,h},Q_a) = TV(P_a,Q_{a,h}) = a + h (lower2pt_tv)"
+module = "StatFormal.Wave31tn.Proofs"
+claim = "StatFormal.Wave31tn.Claims.lower2pt_tv"
+theorem = "StatFormal.Wave31tn.lower2pt_tv"
+card = "certify/cards/wave31tn.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "prop:lower2pt (AoS 2026-11-20) (b): P(TV - alpha~ >= h) >= 1 - delta - h sqrt(n/(2a(1-a))) at (P_{a,h},Q_a), with m at (P_a,Q_{a,h}) (lower2pt)"
+module = "StatFormal.Wave31tn.Proofs"
+claim = "StatFormal.Wave31tn.Claims.lower2pt"
+theorem = "StatFormal.Wave31tn.lower2pt"
+card = "certify/cards/wave31tn.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "prop:lower2pt (AoS 2026-11-20) (c): h = ((1-delta)/2) sqrt(2a(1-a)/(n^m)), the pair with the smaller perturbed sample has P(TV - alpha~ >= h) >= (1-delta)/2 (lower2pt_c)"
+module = "StatFormal.Wave31tn.Proofs"
+claim = "StatFormal.Wave31tn.Claims.lower2pt_c"
+theorem = "StatFormal.Wave31tn.lower2pt_c"
+card = "certify/cards/wave31tn.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "lem:twopointmargin (AoS 2026-11-20): both perturbed two-point pairs satisfy D_{alpha*-eps} >= eps/||f||, ass:margin with gamma = 1, c0 = 1/||f|| (twopointmargin)"
+module = "StatFormal.Wave31tn.Proofs"
+claim = "StatFormal.Wave31tn.Claims.twopointmargin"
+theorem = "StatFormal.Wave31tn.twopointmargin"
+card = "certify/cards/wave31tn.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "cor:minimax (AoS 2026-11-20) (i): every lower bound valid over M has P(TV - alpha~ >= c_lo (n^m)^{-1/2}) >= (1-delta)/2 at some pair of M (minimax_i)"
+module = "StatFormal.Wave31tn.Proofs"
+claim = "StatFormal.Wave31tn.Claims.minimax_i"
+theorem = "StatFormal.Wave31tn.minimax_i"
+card = "certify/cards/wave31tn.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "cor:minimax (AoS 2026-11-20) (ii): the analytic alpha-hat is valid over M and P(TV - alpha-hat > C (n^m)^{-1/2}) <= delta + delta' uniformly over M (minimax_ii)"
+module = "StatFormal.Wave31tn.Proofs"
+claim = "StatFormal.Wave31tn.Claims.minimax_ii"
+theorem = "StatFormal.Wave31tn.minimax_ii"
+card = "certify/cards/wave31tn.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "cor:minimax (AoS 2026-11-20) (iii): alpha-lo on the grid {j (n^m)^{-1/2}} is valid over M and P(TV - alpha-lo > C (n^m)^{-1/2}) <= eta uniformly over M (minimax_iii)"
+module = "StatFormal.Wave31tn.Proofs"
+claim = "StatFormal.Wave31tn.Claims.minimax_iii"
+theorem = "StatFormal.Wave31tn.minimax_iii"
+card = "certify/cards/wave31tn.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "lem:newtrimmean (AoS 2026-11-21, Lemma S4.9): (E_P f - alpha sup f)/(1-alpha) <= E_{P'} f <= (E_P f - alpha inf f)/(1-alpha) for every P' in R_alpha(P), f bounded measurable (newtrimmean)"
+module = "StatFormal.Wave31to.Proofs"
+claim = "StatFormal.Wave31to.Claims.newtrimmean"
+theorem = "StatFormal.Wave31to.newtrimmean"
+card = "certify/cards/wave31to.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "prop:newapproxgen (AoS 2026-11-21, Prop. S4.10) (i): (1-alpha)||f|| D_alpha >= E_P f - E_Q f - alpha osc(f) for f in H, f != 0 (newapproxgen_i)"
+module = "StatFormal.Wave31to.Proofs"
+claim = "StatFormal.Wave31to.Claims.newapproxgen_i"
+theorem = "StatFormal.Wave31to.newapproxgen_i"
+card = "certify/cards/wave31to.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "prop:newapproxgen (AoS 2026-11-21, Prop. S4.10) (ii): E_P f - E_Q f = alpha* - err(f) on F, u(alpha*-eps) >= (eps - err f)/||f|| (newapproxgen_ii)"
+module = "StatFormal.Wave31to.Proofs"
+claim = "StatFormal.Wave31to.Claims.newapproxgen_ii"
+theorem = "StatFormal.Wave31to.newapproxgen_ii"
+card = "certify/cards/wave31to.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "prop:newapproxgen (AoS 2026-11-21, Prop. S4.10) (iii)(a): xi_H nondecreasing, D >= u >= xi_H(eps) >= eps/(2N(eps/2)) (newapproxgen_iii_a)"
+module = "StatFormal.Wave31to.Proofs"
+claim = "StatFormal.Wave31to.Claims.newapproxgen_iii_a"
+theorem = "StatFormal.Wave31to.newapproxgen_iii_a"
+card = "certify/cards/wave31to.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "prop:newapproxgen (AoS 2026-11-21, Prop. S4.10) (iii)(b): xi_H(eps) > lambda iff K(lambda) < eps (newapproxgen_iii_b)"
+module = "StatFormal.Wave31to.Proofs"
+claim = "StatFormal.Wave31to.Claims.newapproxgen_iii_b"
+theorem = "StatFormal.Wave31to.newapproxgen_iii_b"
+card = "certify/cards/wave31to.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "prop:newapprox (AoS 2026-11-21, Prop. 5.4) (a): D_{alpha*-eps} >= (eps - err f)/((1-alpha*+eps)||f||) (newapprox_a)"
+module = "StatFormal.Wave31to.Proofs"
+claim = "StatFormal.Wave31to.Claims.newapprox_a"
+theorem = "StatFormal.Wave31to.newapprox_a"
+card = "certify/cards/wave31to.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "prop:newapprox (AoS 2026-11-21, Prop. 5.4) (b): D_{alpha*-eps} >= eps/(2N(eps/2)) (newapprox_b)"
+module = "StatFormal.Wave31to.Proofs"
+claim = "StatFormal.Wave31to.Claims.newapprox_b"
+theorem = "StatFormal.Wave31to.newapprox_b"
+card = "certify/cards/wave31to.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "prop:newapprox (AoS 2026-11-21), the identities printed with err (05_rates.tex:89-92, S4_rates.tex:589-593): err(f) = alpha* - (E_P f - E_Q f), balanced error (1 - alpha* + err f)/2 >= Bayes error (1-alpha*)/2 attained at 1_A (newapprox_err)"
+module = "StatFormal.Wave31to.Proofs"
+claim = "StatFormal.Wave31to.Claims.newapprox_err"
+theorem = "StatFormal.Wave31to.newapprox_err"
+card = "certify/cards/wave31to.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "prop:newslopegeneral (AoS 2026-11-21, Prop. S4.7): lim u(alpha*-eps)/eps <= dist(supp phi#P0, supp phi#Q0); supports closed, nonempty, of full mass (newslopegeneral)"
+module = "StatFormal.Wave31to.Proofs"
+claim = "StatFormal.Wave31to.Claims.newslopegeneral"
+theorem = "StatFormal.Wave31to.newslopegeneral"
+card = "certify/cards/wave31to.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "prop:newslope (AoS 2026-11-21, Prop. 5.3) (a): for continuous phi the slope is at most inf ||phi(x) - phi(y)|| over x in supp P0, y in supp Q0 (newslope_a)"
+module = "StatFormal.Wave31to.Proofs"
+claim = "StatFormal.Wave31to.Claims.newslope_a"
+theorem = "StatFormal.Wave31to.newslope_a"
+card = "certify/cards/wave31to.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "prop:newslope (AoS 2026-11-21, Prop. 5.3) (b): if the supports meet the slope is 0 and ass:margin fails with gamma = 1 (newslope_b)"
+module = "StatFormal.Wave31to.Proofs"
+claim = "StatFormal.Wave31to.Claims.newslope_b"
+theorem = "StatFormal.Wave31to.newslope_b"
+card = "certify/cards/wave31to.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "prop:newrates (AoS 2026-11-21, Prop. 5.9) (i), any valid threshold and lower tool: P(alpha* - omega^<-(t) <= alpha^ <= alpha*) >= 1 - delta - delta' (newrates_i)"
+module = "StatFormal.Wave31to.Proofs"
+claim = "StatFormal.Wave31to.Claims.newrates_i"
+theorem = "StatFormal.Wave31to.newrates_i"
+card = "certify/cards/wave31to.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "prop:newrates (AoS 2026-11-21, Prop. 5.9) (i) at the paper's thresholds tau_{n,m}, tau^A_{n,m} (newrates_i_full)"
+module = "StatFormal.Wave31to.Proofs"
+claim = "StatFormal.Wave31to.Claims.newrates_i_full"
+theorem = "StatFormal.Wave31to.newrates_i_full"
+card = "certify/cards/wave31to.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "prop:newrates (AoS 2026-11-21, Prop. 5.9) (ii), thm:lorate (i) with omega(eps) in place of c0 eps^gamma: P(alpha^_lo < a_eps) <= eta (newrates_ii_a)"
+module = "StatFormal.Wave31to.Proofs"
+claim = "StatFormal.Wave31to.Claims.newrates_ii_a"
+theorem = "StatFormal.Wave31to.newrates_ii_a"
+card = "certify/cards/wave31to.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "prop:newrates (AoS 2026-11-21, Prop. 5.9) (ii), thm:lorate (ii) with omega^<-(t): P(alpha* - h - omega^<-(t) <= alpha^_lo <= alpha*) >= 1 - delta - eta (newrates_ii_b)"
+module = "StatFormal.Wave31to.Proofs"
+claim = "StatFormal.Wave31to.Claims.newrates_ii_b"
+theorem = "StatFormal.Wave31to.newrates_ii_b"
+card = "certify/cards/wave31to.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "prop:newconverse (AoS 2026-11-21, Prop. S4.18): with tau^A alone, P(alpha* - alpha^A >= sup{eps : D_{alpha*-eps} <= g_{n,m}}) >= 1 - delta' (newconverse)"
+module = "StatFormal.Wave31to.Proofs"
+claim = "StatFormal.Wave31to.Claims.newconverse"
+theorem = "StatFormal.Wave31to.newconverse"
+card = "certify/cards/wave31to.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "lem:attainment (AoS 2026-11-21, Lemma 2.3): C_alpha(P) is convex (attain_convex)"
+module = "StatFormal.Archive.Wave11b.Proofs"
+claim = "StatFormal.Wave11b.Claims.attain_convex"
+theorem = "StatFormal.Wave11b.attain_convex"
+card = "certify/cards/wave31to.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "lem:attainment (AoS 2026-11-21, Lemma 2.3): C_alpha(P) is norm-bounded by kappa (attain_bounded)"
+module = "StatFormal.Archive.Wave11b.Proofs"
+claim = "StatFormal.Wave11b.Claims.attain_bounded"
+theorem = "StatFormal.Wave11b.attain_bounded"
+card = "certify/cards/wave31to.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "lem:attainment (AoS 2026-11-21, Lemma 2.3): C_alpha(P) is norm-compact (contact_compact)"
+module = "StatFormal.Wave30tx.Proofs"
+claim = "StatFormal.Wave30tx.Claims.contact_compact"
+theorem = "StatFormal.Wave30tx.contact_compact"
+card = "certify/cards/wave31to.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "lem:attainment (AoS 2026-11-21, Lemma 2.3): the infimum is attained at trimmings (attain_inf)"
+module = "StatFormal.Archive.Wave11b.Proofs"
+claim = "StatFormal.Wave11b.Claims.attain_inf"
+theorem = "StatFormal.Wave11b.attain_inf"
+card = "certify/cards/wave31to.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "lem:attainment (AoS 2026-11-21, Lemma 2.3): D_alpha = 0 implies the regions meet (attain_zero)"
+module = "StatFormal.Archive.Wave11b.Proofs"
+claim = "StatFormal.Wave11b.Claims.attain_zero"
+theorem = "StatFormal.Wave11b.attain_zero"
+card = "certify/cards/wave31to.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "lem:attainment (AoS 2026-11-21, Lemma 2.3): every common point is the embedding of a common trimming (attain_common)"
+module = "StatFormal.Archive.Wave11b.Proofs"
+claim = "StatFormal.Wave11b.Claims.attain_common"
+theorem = "StatFormal.Wave11b.attain_common"
+card = "certify/cards/wave31to.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "alg:split line 10 (Wave31tr T1(d); §4 :61-64): at a grid level the printed ranks lie in [1,k], lowQ/highQ are the smallest (1-alpha)- and largest alpha-quantile (printed_cuts)"
+module = "StatFormal.Wave31tr.Proofs"
+claim = "StatFormal.Wave31tr.Claims.printed_cuts"
+theorem = "StatFormal.Wave31tr.printed_cuts"
+card = "certify/cards/wave31tr.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "sec:betting pairing (Wave31tr T2(a); S3 :113-119, alg:split lines 1-2): a printed pairing exists (numpy array_split) (printedPairing_exists)"
+module = "StatFormal.Wave31tr.Proofs"
+claim = "StatFormal.Wave31tr.Claims.printedPairing_exists"
+theorem = "StatFormal.Wave31tr.printedPairing_exists"
+card = "certify/cards/wave31tr.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "alg:split (Wave31tr T4(a); §4.2, S3 :97-159): the paper's run exists for all rules, priors and boundaries (paperRun_exists)"
+module = "StatFormal.Wave31tr.Proofs"
+claim = "StatFormal.Wave31tr.Claims.paperRun_exists"
+theorem = "StatFormal.Wave31tr.paperRun_exists"
+card = "certify/cards/wave31tr.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "alg:split (Wave31tr T4(b)): the printed instance (nb = 2, nearest cuts, lambda_max = 1/2, w0 = 20, lowQ/highQ) exists for all sizes (paperRun_exists_printed)"
+module = "StatFormal.Wave31tr.Proofs"
+claim = "StatFormal.Wave31tr.Claims.paperRun_exists_printed"
+theorem = "StatFormal.Wave31tr.paperRun_exists_printed"
+card = "certify/cards/wave31tr.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "alg:split line 12 (Algorithm S1; S3 :153-154; Wave31tr T48(c)): Algorithm S1's initial variance is a prior rule (alg_prior)"
+module = "StatFormal.Wave31tr.Proofs"
+claim = "StatFormal.Wave31tr.Claims.alg_prior"
+theorem = "StatFormal.Wave31tr.alg_prior"
+card = "certify/cards/wave31tr.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "ass:margin (main :28-29; Wave31tr T55): the margin on (0, eps0] suffices (margin_eps0)"
+module = "StatFormal.Wave31tr.Proofs"
+claim = "StatFormal.Wave31tr.Claims.margin_eps0"
+theorem = "StatFormal.Wave31tr.margin_eps0"
+card = "certify/cards/wave31tr.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "prop:newrates (i) (Proposition S4.8; Wave31tr T10, first part) for the paper's run (paper_newrates_i_a)"
+module = "StatFormal.Wave31tr.Proofs"
+claim = "StatFormal.Wave31tr.Claims.paper_newrates_i_a"
+theorem = "StatFormal.Wave31tr.paper_newrates_i_a"
+card = "certify/cards/wave31tr.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "prop:newrates (i) (Proposition S4.8; Wave31tr T10, second part) for the paper's run (paper_newrates_i_b)"
+module = "StatFormal.Wave31tr.Proofs"
+claim = "StatFormal.Wave31tr.Claims.paper_newrates_i_b"
+theorem = "StatFormal.Wave31tr.paper_newrates_i_b"
+card = "certify/cards/wave31tr.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "cor:minimax (ii) (Corollary 5.9; Wave31tr T11) for the paper's run (paper_minimax_ii)"
+module = "StatFormal.Wave31tr.Proofs"
+claim = "StatFormal.Wave31tr.Claims.paper_minimax_ii"
+theorem = "StatFormal.Wave31tr.paper_minimax_ii"
+card = "certify/cards/wave31tr.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "cor:alphalo (Corollary 6.3; Wave31tr T12) for the paper's run (paper_alphalo)"
+module = "StatFormal.Wave31tr.Proofs"
+claim = "StatFormal.Wave31tr.Claims.paper_alphalo"
+theorem = "StatFormal.Wave31tr.paper_alphalo"
+card = "certify/cards/wave31tr.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "§6 :102-103 (Wave31tr T51; prop:alphahat composed): the trimming read at any valid lower bound (trimming_at_lower)"
+module = "StatFormal.Wave31tr.Proofs"
+claim = "StatFormal.Wave31tr.Claims.trimming_at_lower"
+theorem = "StatFormal.Wave31tr.trimming_at_lower"
+card = "certify/cards/wave31tr.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "§4 :170-173, S3 :199-200, alg:split lines 4-7 (Wave31tr T49(a)): the runs as computed (kernel level) are valid (kernel_run_valid)"
+module = "StatFormal.Wave31tr.Proofs"
+claim = "StatFormal.Wave31tr.Claims.kernel_run_valid"
+theorem = "StatFormal.Wave31tr.kernel_run_valid"
+card = "certify/cards/wave31tr.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "prop:bangbang (Wave31tr T27; D4): the AoS wording with the order-statistic cut (bangbang_aos)"
+module = "StatFormal.Wave31tr.Proofs"
+claim = "StatFormal.Wave31tr.Claims.bangbang_aos"
+theorem = "StatFormal.Wave31tr.bangbang_aos"
+card = "certify/cards/wave31tr.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "prop:newslope last sentence (Proposition 5.3, main :68-70; Wave31tr T29(a)): continuous densities equal on no open set touch (contact_densities)"
+module = "StatFormal.Wave31tr.Proofs"
+claim = "StatFormal.Wave31tr.Claims.contact_densities"
+theorem = "StatFormal.Wave31tr.contact_densities"
+card = "certify/cards/wave31tr.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "prop:newslope last sentence (Proposition 5.3; Wave31tr T29(b)): distinct finite Gaussian mixtures (contact_gauss_mix)"
+module = "StatFormal.Wave31tr.Proofs"
+claim = "StatFormal.Wave31tr.Claims.contact_gauss_mix"
+theorem = "StatFormal.Wave31tr.contact_gauss_mix"
+card = "certify/cards/wave31tr.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "cor:minimax class (main :222-224; Wave31tr T29(c), E9): pairs of the minimax class are apart (minimax_class_apart)"
+module = "StatFormal.Wave31tr.Proofs"
+claim = "StatFormal.Wave31tr.Claims.minimax_class_apart"
+theorem = "StatFormal.Wave31tr.minimax_class_apart"
+card = "certify/cards/wave31tr.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "cor:minimax, main :220-222 (Wave31tr T22(b)): the two parts concern the same quantile of the error (same_quantile)"
+module = "StatFormal.Wave31tr.Proofs"
+claim = "StatFormal.Wave31tr.Claims.same_quantile"
+theorem = "StatFormal.Wave31tr.same_quantile"
+card = "certify/cards/wave31tr.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "ass:regularity (Assumption 2.1; §2 :57-61, S1 :6; Wave31tr T32, D8): Assumption 2.1 gives the house encoding (Pettis) (house_encoding)"
+module = "StatFormal.Wave31tr.Proofs"
+claim = "StatFormal.Wave31tr.Claims.house_encoding"
+theorem = "StatFormal.Wave31tr.house_encoding"
+card = "certify/cards/wave31tr.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "lem:excessbathtub (Lemma S4.17; Wave31tr T38): bathtub for the closest parts, (G) and (Pr) (excess_bathtub)"
+module = "StatFormal.Wave31tr.Proofs"
+claim = "StatFormal.Wave31tr.Claims.excess_bathtub"
+theorem = "StatFormal.Wave31tr.excess_bathtub"
+card = "certify/cards/wave31tr.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "lem:excessid (Lemma S4.18; Wave31tr T39): the excess identity, (G) and (Pr) (excess_identity)"
+module = "StatFormal.Wave31tr.Proofs"
+claim = "StatFormal.Wave31tr.Claims.excess_identity"
+theorem = "StatFormal.Wave31tr.excess_identity"
+card = "certify/cards/wave31tr.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "prop:excess (i) (Proposition 5.10; main :253-255, :275-279; Wave31tr T40): excess lower bound and supporting line, (G) and (Pr) (excess_i)"
+module = "StatFormal.Wave31tr.Proofs"
+claim = "StatFormal.Wave31tr.Claims.excess_i"
+theorem = "StatFormal.Wave31tr.excess_i"
+card = "certify/cards/wave31tr.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "prop:excess (ii) (Proposition 5.10; main :256-257, :280-282; Wave31tr T41): two-sided excess under a two-sided power path, (G) and (Pr) (excess_ii)"
+module = "StatFormal.Wave31tr.Proofs"
+claim = "StatFormal.Wave31tr.Claims.excess_ii"
+theorem = "StatFormal.Wave31tr.excess_ii"
+card = "certify/cards/wave31tr.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "prop:excess (iii) (Proposition 5.10; main :283-284, S4 :978-979; Wave31tr T42(a)-(c)): the Laplace witness is clipped and flat, (G) and (Pr) (excess_laplace)"
+module = "StatFormal.Wave31tr.Proofs"
+claim = "StatFormal.Wave31tr.Claims.excess_laplace"
+theorem = "StatFormal.Wave31tr.excess_laplace"
+card = "certify/cards/wave31tr.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "prop:excess (iii) proof step (S4 :967; Wave31tr T42(d)): the Green identity of the Laplace kernel and its discrete second difference (laplace_green)"
+module = "StatFormal.Wave31tr.Proofs"
+claim = "StatFormal.Wave31tr.Claims.laplace_green"
+theorem = "StatFormal.Wave31tr.laplace_green"
+card = "certify/cards/wave31tr.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "prop:newgammaone, S4 :374-382 (Wave31tq Q8): Proposition S4.5: disjoint supports give gamma = 1 with c0 = 1/||f||, and a positive slope iff disjoint supports (newgammaone)"
+module = "StatFormal.Wave31tq.Proofs"
+claim = "StatFormal.Wave31tq.Claims.newgammaone"
+theorem = "StatFormal.Wave31tq.newgammaone"
+card = "certify/cards/wave31tq.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "lem:newsobnorm, S4 :537-549 (Wave31tq Q10): Lemma S4.9: c_d > 0 and the H^s norm bound of a mollified indicator (newsobnorm)"
+module = "StatFormal.Wave31tq.Proofs"
+claim = "StatFormal.Wave31tq.Claims.newsobnorm"
+theorem = "StatFormal.Wave31tq.newsobnorm"
+card = "certify/cards/wave31tq.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "thm:newsobolev, S4 :586-603 (Wave31tq Q11): Theorem S4.10: the mollified indicator is in the RKHS with err(f_w) and the lower bound on the rescaled path (newsobolev_thm)"
+module = "StatFormal.Wave31tq.Proofs"
+claim = "StatFormal.Wave31tq.Claims.newsobolev_thm"
+theorem = "StatFormal.Wave31tq.newsobolev_thm"
+card = "certify/cards/wave31tq.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "cor:newsobolev, S4 :620-627 (Wave31tq Q12): Corollary S4.11, |P-Q| carried by B_(rho-1): polynomial margin with gamma = 1 + (2s-1)/(2(r+1)) (newsobolev_cor_bounded)"
+module = "StatFormal.Wave31tq.Proofs"
+claim = "StatFormal.Wave31tq.Claims.newsobolev_cor_bounded"
+theorem = "StatFormal.Wave31tq.newsobolev_cor_bounded"
+card = "certify/cards/wave31tq.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "cor:newsobolev, S4 :620-627 (Wave31tq Q12): Corollary S4.11 on the line with exponential tails: the same margin (newsobolev_cor_line)"
+module = "StatFormal.Wave31tq.Proofs"
+claim = "StatFormal.Wave31tq.Claims.newsobolev_cor_line"
+theorem = "StatFormal.Wave31tq.newsobolev_cor_line"
+card = "certify/cards/wave31tq.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "cor:newsobolev, S4 :628-630, :646-647 (Wave31tq Q12): Corollary S4.11 'Hence': the split-sample bound is at least alpha* - mesh - O_P((n wedge m)^(-1/(2 gamma))) with probability 1 - eta (newsobolev_cor_OP)"
+module = "StatFormal.Wave31tq.Proofs"
+claim = "StatFormal.Wave31tq.Claims.newsobolev_cor_OP"
+theorem = "StatFormal.Wave31tq.newsobolev_cor_OP"
+card = "certify/cards/wave31tq.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "lem:newgaussstep, S4 :677-684 (Wave31tq Q16): Lemma S4.12: the band-limited smoothed step is in the Gaussian RKHS with the printed norm and err bounds (newgaussstep)"
+module = "StatFormal.Wave31tq.Proofs"
+claim = "StatFormal.Wave31tq.Claims.newgaussstep"
+theorem = "StatFormal.Wave31tq.newgaussstep"
+card = "certify/cards/wave31tq.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "thm:newgauss, S4 :705-711, :739-741 (Wave31tq Q17): Theorem S4.13: the exponential-type lower bound on the rescaled path and on omega_H (newgauss_thm)"
+module = "StatFormal.Wave31tq.Proofs"
+claim = "StatFormal.Wave31tq.Claims.newgauss_thm"
+theorem = "StatFormal.Wave31tq.newgauss_thm"
+card = "certify/cards/wave31tq.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "thm:newgauss, S4 :711-715 (Wave31tq Q17): Theorem S4.13: rho_eps satisfies the condition for small eps and log(1/D-bar) <= sigma^2 l pi^2/(8 theta eps) + log(1/eps) + O(log log(1/eps)) (newgauss_thm_rho)"
+module = "StatFormal.Wave31tq.Proofs"
+claim = "StatFormal.Wave31tq.Claims.newgauss_thm_rho"
+theorem = "StatFormal.Wave31tq.newgauss_thm_rho"
+card = "certify/cards/wave31tq.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "prop:newupperone, S4 :758-766 (Wave31tq Q19): Proposition S4.14: explicit trimmings bound the rescaled path for s in (1/2, 3/2) (newupperone)"
+module = "StatFormal.Wave31tq.Proofs"
+claim = "StatFormal.Wave31tq.Claims.newupperone"
+theorem = "StatFormal.Wave31tq.newupperone"
+card = "certify/cards/wave31tq.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "prop:newmoments, S4 :782-797 (Wave31tq Q20): Proposition S4.15: moment-cancelling trimmings and the bounds (a) eps^((2s+3)/4), (b) eps^(1+N/2) (newmoments)"
+module = "StatFormal.Wave31tq.Proofs"
+claim = "StatFormal.Wave31tq.Claims.newmoments"
+theorem = "StatFormal.Wave31tq.newmoments"
+card = "certify/cards/wave31tq.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "prop:newsobolev, main :105-117 (Wave31tq Q21): Proposition 5.5: c1 eps^((2s+3)/4) <= D_(alpha*-eps) <= c2 eps^((2s+3)/4) for a Sobolev kernel on the line (newsobolev)"
+module = "StatFormal.Wave31tq.Proofs"
+claim = "StatFormal.Wave31tq.Claims.newsobolev"
+theorem = "StatFormal.Wave31tq.newsobolev"
+card = "certify/cards/wave31tq.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "prop:newgauss, main :128-136 (Wave31tq Q22): Proposition 5.6: exp(-c/eps) <= D_(alpha*-eps) <= C_N eps^N for the Gaussian kernel (newgauss)"
+module = "StatFormal.Wave31tq.Proofs"
+claim = "StatFormal.Wave31tq.Claims.newgauss"
+theorem = "StatFormal.Wave31tq.newgauss"
+card = "certify/cards/wave31tq.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "prop:excess (ii), main :280-282, S4 :963-964 (Wave31tq Q26): Proposition 5.10(ii) holds under the hypotheses of Proposition 5.5 (excess_sobolev)"
+module = "StatFormal.Wave31tq.Proofs"
+claim = "StatFormal.Wave31tq.Claims.excess_sobolev"
+theorem = "StatFormal.Wave31tq.excess_sobolev"
+card = "certify/cards/wave31tq.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "S4 :1220-1222 (Banach's indicatrix theorem, the half used by `lem:lapbv`): for `h` continuous on `[a,b]`, the counting function `N(s) = #{x ∈ [a,b] : h x = s}` is measurable and `∫⁻ N ≤ V_{[a,b]}(h)`. (Wave31tu Y1(a); banach_indicatrix_le)"
+module = "StatFormal.Wave31tu.Proofs"
+claim = "StatFormal.Wave31tu.Claims.banach_indicatrix_le"
+theorem = "StatFormal.Wave31tu.banach_indicatrix_le"
+card = "certify/cards/wave31tu.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "`lem:lapintervals` (Lemma S4.23, S4 :1188-1205): (a) the event holds with probability `≥ 1 − η′` at `x = log(2(n+1)²/η′)`; (b) the events weaken as `x` grows (S4 :1351-1352); (c) the pooled points are a.s. pairwise distinct (S4 :1088-1089). (Wave31tu Y4; lap_intervals)"
+module = "StatFormal.Wave31tu.Proofs"
+claim = "StatFormal.Wave31tu.Claims.lap_intervals"
+theorem = "StatFormal.Wave31tu.lap_intervals"
+card = "certify/cards/wave31tu.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "`lem:lapbv` (Lemma S4.24, S4 :1207-1225): localized deviation for functions of bounded variation. (Wave31tu Y5; lap_bv)"
+module = "StatFormal.Wave31tu.Proofs"
+claim = "StatFormal.Wave31tu.Claims.lap_bv"
+theorem = "StatFormal.Wave31tu.lap_bv"
+card = "certify/cards/wave31tu.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "`lem:lapratio` (Lemma S4.20, S4 :1075-1086), for every measurable space and bounded feature map. (Wave31tu Y9; lap_ratio)"
+module = "StatFormal.Wave31tu.Proofs"
+claim = "StatFormal.Wave31tu.Claims.lap_ratio"
+theorem = "StatFormal.Wave31tu.lap_ratio"
+card = "certify/cards/wave31tu.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "`lem:lapclip` (Lemma S4.21, S4 :1088-1132): the fitted Laplace witness clips itself. (Wave31tu Y10; lap_clip)"
+module = "StatFormal.Wave31tu.Proofs"
+claim = "StatFormal.Wave31tu.Claims.lap_clip"
+theorem = "StatFormal.Wave31tu.lap_clip"
+card = "certify/cards/wave31tu.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "`lem:lapcompare` (Lemma S4.22, S4 :1145-1182). (Wave31tu Y12; lap_compare)"
+module = "StatFormal.Wave31tu.Proofs"
+claim = "StatFormal.Wave31tu.Claims.lap_compare"
+theorem = "StatFormal.Wave31tu.lap_compare"
+card = "certify/cards/wave31tu.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "`lem:lapdev` (Lemma S4.25, S4 :1227-1275), at `σ = 1` as printed: (a) without, (b) with condition (5.1). (Wave31tu Y13; lap_dev)"
+module = "StatFormal.Wave31tu.Proofs"
+claim = "StatFormal.Wave31tu.Claims.lap_dev"
+theorem = "StatFormal.Wave31tu.lap_dev"
+card = "certify/cards/wave31tu.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "`lem:lapown` (Lemma S4.26), general part: a ramp with cut points moved inward. (Wave31tu Y14; own_ramp)"
+module = "StatFormal.Wave31tu.Proofs"
+claim = "StatFormal.Wave31tu.Claims.own_ramp"
+theorem = "StatFormal.Wave31tu.own_ramp"
+card = "certify/cards/wave31tu.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "`lem:lapown` (Lemma S4.26, S4 :1277-1291), printed form. (Wave31tu Y14; lap_own)"
+module = "StatFormal.Wave31tu.Proofs"
+claim = "StatFormal.Wave31tu.Claims.lap_own"
+theorem = "StatFormal.Wave31tu.lap_own"
+card = "certify/cards/wave31tu.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "`prop:lapfitted` (Proposition S4.27, S4 :1293-1344), at `σ = 1` as printed. (Wave31tu Y15 (a), (b); lap_fitted)"
+module = "StatFormal.Wave31tu.Proofs"
+claim = "StatFormal.Wave31tu.Claims.lap_fitted"
+theorem = "StatFormal.Wave31tu.lap_fitted"
+card = "certify/cards/wave31tu.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "`thm:laplaceconst` (Theorem S4.19) (i), S4 :989-1018: `C` depends only on the printed list. (Wave31tu Y18 (G); laplace_const_i)"
+module = "StatFormal.Wave31tu.Proofs"
+claim = "StatFormal.Wave31tu.Claims.laplace_const_i"
+theorem = "StatFormal.Wave31tu.laplace_const_i"
+card = "certify/cards/wave31tu.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "`thm:laplaceconst` (Theorem S4.19) (ii), S4 :989-1018. (Wave31tu Y18 (G); laplace_const_ii)"
+module = "StatFormal.Wave31tu.Proofs"
+claim = "StatFormal.Wave31tu.Claims.laplace_const_ii"
+theorem = "StatFormal.Wave31tu.laplace_const_ii"
+card = "certify/cards/wave31tu.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "`thm:laplaceconst` (i) under the printed hypotheses, `∃ C` before `H, φ` (B1). (Wave31tu Y18 (Pr); laplace_const_pr_i)"
+module = "StatFormal.Wave31tu.Proofs"
+claim = "StatFormal.Wave31tu.Claims.laplace_const_pr_i"
+theorem = "StatFormal.Wave31tu.laplace_const_pr_i"
+card = "certify/cards/wave31tu.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "`thm:laplaceconst` (ii) under the printed hypotheses. (Wave31tu Y18 (Pr); laplace_const_pr_ii)"
+module = "StatFormal.Wave31tu.Proofs"
+claim = "StatFormal.Wave31tu.Claims.laplace_const_pr_ii"
+theorem = "StatFormal.Wave31tu.laplace_const_pr_ii"
+card = "certify/cards/wave31tu.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "`thm:laplacerate` (Theorem 5.11) (i), §5 :293-318, printed `O` form, `∃ C` before `H, φ` (B1). (Wave31tu Y19 (i); laplace_rate_i)"
+module = "StatFormal.Wave31tu.Proofs"
+claim = "StatFormal.Wave31tu.Claims.laplace_rate_i"
+theorem = "StatFormal.Wave31tu.laplace_rate_i"
+card = "certify/cards/wave31tu.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "`thm:laplacerate` (Theorem 5.11) (ii), printed `O` form, `∃ C` before `H, φ`. (Wave31tu Y19 (ii); laplace_rate_ii)"
+module = "StatFormal.Wave31tu.Proofs"
+claim = "StatFormal.Wave31tu.Claims.laplace_rate_ii"
+theorem = "StatFormal.Wave31tu.laplace_rate_ii"
+card = "certify/cards/wave31tu.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "`lem:laplocal` (Lemma S4.28, S4 :1386-1414), first sample (`p̄` only in a conditional conjunct). (Wave31tu Y20 (a); lap_local)"
+module = "StatFormal.Wave31tu.Proofs"
+claim = "StatFormal.Wave31tu.Claims.lap_local"
+theorem = "StatFormal.Wave31tu.lap_local"
+card = "certify/cards/wave31tu.md"
+
+[[target]]
+paper = "trimmed-mmd (jmlr)"
+label = "`lem:laplocal`: the second sample (`Q` moved from `A₁` to `B₁`, `m`, `π′`). (Wave31tu Y20 (b); lap_local_Q)"
+module = "StatFormal.Wave31tu.Proofs"
+claim = "StatFormal.Wave31tu.Claims.lap_local_Q"
+theorem = "StatFormal.Wave31tu.lap_local_Q"
+card = "certify/cards/wave31tu.md"

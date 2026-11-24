@@ -1,0 +1,5 @@
+.lake/
+*.olean
+.certify_audit.lean
+.check_aliases_audit.*
+__pycache__/
