@@ -38,23 +38,35 @@ python3 tools/check_aliases.py      # every paper name is literally a certified 
 ## Where the files come from
 
 The formalization was developed in a larger private repository that formalizes several papers. This repository is a
-snapshot of it at commit `2382479`, and the Lean files are copied unchanged. It contains the files that the paper's
-results need and everything those files import.
+snapshot of it at commit `2382479`. It contains the files that the paper's results need and everything those files
+import, and every file under `StatFormal/` is copied unchanged.
 
 The proofs reuse some lemmas first proved for the author's other projects, so some folders under `StatFormal/Archive/`
 come from those formalizations, for example `OTFD`, `RobustEquality` and `ICL`. They are included only because the
 proofs here depend on them. Their statements are not results of this paper, and only the targets in
 `certify/targets.toml` are certified here.
 
-The other changes are:
-- the two pages under `Papers/` keep only the names the paper cites;
-- `StatFormal.lean` imports every module of the snapshot;
-- `tools/check_aliases.py` names the two pages directly.
+Outside `StatFormal/`, the snapshot differs from the development repository in these files:
+- the two pages under `Papers/` keep only the names the paper cites, and `Papers.lean` imports just these two pages;
+- `StatFormal.lean` imports every module of the snapshot, and `lakefile.toml` also builds `Papers` by default;
+- `certify/targets.toml` keeps the 197 targets of this paper, out of 4,201, and `certify/statements.lock` keeps the
+  entries of the 189 statement files they rest on, out of 339; the entries kept are copied unchanged;
+- `tools/check_aliases.py` lists the two pages itself, where the development copy imports that list from the page
+  generator `tools/gen_papers_face.py`, which is not included; the checks it runs are unchanged;
+- `docs/trimmed-mmd-aos.md` was regenerated for the version of the paper in the trimmed-mmd repository, and
+  `README.md`, `TRUST.md` and `.gitignore` were written for this repository.
+
+The cards, the docstrings on the two pages and comments in some statement files mention working files of the
+development repository, such as drafts of the paper, audit notes, planning inventories and paths in the author's home
+directory. Those files are not included. The cards and the statement files are kept exactly as they were approved, and
+the statement files could not be edited without breaking the lock.
 
 ## Layout
 
 - `Papers/` holds the paper names (aliases).
-- `StatFormal/Archive/` holds the frozen statements (`Statements.lean`) and their proofs, grouped by the batch of work that produced them.
+- `StatFormal/` holds the frozen statements (`Statements.lean`) and their proofs, one folder for each batch of work
+  ("wave") that produced them. The most recent waves sit directly under `StatFormal/` (`Wave30tj` to `Wave31tu`), and
+  the earlier ones under `StatFormal/Archive/`.
 - `StatFormal/Lib/` holds general results used by the proofs.
 - `certify/` holds the certified targets, the statement lock, the fidelity cards and the review method.
 - `tools/` holds the certification check and the alias check.

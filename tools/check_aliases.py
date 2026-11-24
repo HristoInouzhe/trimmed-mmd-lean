@@ -7,7 +7,7 @@ Fails unless ALL of:
   1. textual: every alias file consists only of the generator's header comment, `import StatFormal....` lines, a module docstring,
      `namespace`/`end` lines, docstrings and declarations of the exact form `theorem <alias> : <claim> := <theorem>` where
      (claim, theorem) is a target of certify/targets.toml; no other command (no `set_option`, `attribute`, `axiom`, macro, ...);
-  2. completeness: every target whose paper has a Papers/ page (gen_papers_face.PAPERS) has at least one alias;
+  2. completeness: every target whose paper has a Papers/ page (PAPERS below) has at least one alias;
   3. `lake build Papers` succeeds;
   4. in Lean (kernel environment, not syntax): each alias constant is a theorem whose type is the constant <claim> and whose value is
      the constant <theorem> (so it is the frozen theorem itself, under the frozen claim; its axioms are the ones the gate checked).

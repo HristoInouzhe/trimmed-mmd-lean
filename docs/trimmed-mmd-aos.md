@@ -1,6 +1,6 @@
 # Trimmed MMD, Annals of Statistics version: printed results → Lean
 
-Paper: *Certifying total-variation contamination by betting on trimmed kernel witnesses*, Annals of Statistics version (trimmed-mmd repository, `aos/`, commit `5522834`). Numbers are those printed in the main text and the supplement (S…).
+Paper: *Certifying total-variation contamination by betting on trimmed kernel witnesses*, Annals of Statistics version ([trimmed-mmd](https://github.com/HristoInouzhe/trimmed-mmd) repository, `aos/`, release v1.0.1). Numbers are those printed in the main text and the supplement (S…).
 Aliases live in `Papers.TrimmedMMDJMLR` (or `Papers.TrimmedMMD` for results kept from the long version); the labels are
 the paper's LaTeX labels. "Certified" means what [TRUST.md](../TRUST.md) says: the Lean theorem proves the hash-locked frozen
 claim with only `propext`, `Classical.choice` and `Quot.sound`; whether the frozen claim says what the paper says is the
@@ -122,8 +122,9 @@ the discussion remarks of Section 8 (unequal trimming fractions and the hockey-s
 ## Notation and records
 
 The cards were written against earlier drafts of the paper, and some rows above quote their notation. Since then the
-numbered statements have changed only in notation and wording, and an independent check compared each change with its
-certified claim. Printed symbols and the names they had: n_{1-α} was n_α (Proposition 2.5, Lemmas S3.2 and S5.3); 𝒲 was 𝒩
+numbered statements have changed only in notation and wording. Each change was compared with its certified claim in the
+development repository, and those records are not part of this snapshot. Printed symbols and the names they had: n_{1-α}
+was n_α (Proposition 2.5, Lemmas S3.2 and S5.3); 𝒲 was 𝒩
 (Propositions 5.4 and S4.7); j and C_j were N and C_N (Proposition 5.6); ξ was Ω (Lemma S4.12, Theorem S4.13); ŝ and s⋆
 were ĝ and g⋆ (Lemmas S4.21, S4.22 and S4.26); τ^S was τ^A, still `tauA`, `thmA*` and the label `eq:tauA` in Lean;
 "predictable" was "admissible", still `IsAdmissible`, `IsFitRule`, `IsFracRule` and `IsBatchBetRule` in Lean.

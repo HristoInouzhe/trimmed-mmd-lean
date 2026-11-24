@@ -40,17 +40,24 @@ reviews. The written method is `certify/AUDIT_METHOD.md`. It consists of:
 **The author decided on 2026-10-21 that a card whose review passes under this method is approved automatically.**
 Every such card carries the line `**Author: approved (automatic on AI-audit PASS, per author decision 2026-10-21).**`
 
+The header of `tools/certify.py` describes the statements as written or approved by a human. Here they were drafted and
+frozen in the workflow just described, and the author's approval is the automatic one. Thirty-one entries of
+`certify/statements.lock` were frozen on 2026-10-13 and 2026-10-14, before that decision, and still carry the note
+"author review pending".
+
 ## Paper aliases
 The files `Papers/<Paper>/<Paper>.lean` give each certified target a stable name of the form
 `theorem <alias> : <claim> := <theorem>`. `python3 tools/check_aliases.py` verifies that every alias is literally a
 certified (claim, theorem) pair and that every target has an alias.
 
 ## Provenance
-This repository is a snapshot of the author's development repository at commit `2382479`; the Lean files are copied
-unchanged. The certified material there was produced in batches ("waves"), which live under
-`StatFormal/Archive/<Wave>/`, with general results under `StatFormal/Lib/`.
+This repository is a snapshot of the author's development repository at commit `2382479`. Every file under
+`StatFormal/` is copied unchanged, and [README.md](README.md) lists the files outside it that differ. The certified
+material was produced in batches ("waves"). The most recent waves sit directly under `StatFormal/<Wave>/`, the earlier
+ones under `StatFormal/Archive/<Wave>/`, and general results under `StatFormal/Lib/`.
 
-The directories were moved once, from per-wave folders to this layout. The move changed module paths only: Lean
+The earlier waves were moved once, from folders directly under `StatFormal/` to `StatFormal/Archive/`. The most recent
+waves were written after the move and were never moved. The move changed module paths only: Lean
 namespaces and declarations are unchanged. Before carrying any approval over, a script checked that every locked file is
 byte-identical to its approved text apart from its import lines. Each moved entry of the lock records the move under
 `relocated`. That script and its re-audit are in the development repository.
